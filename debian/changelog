@@ -1,0 +1,122 @@
+pickleshare (0.7.5-5) unstable; urgency=medium
+
+  * Fix d/watch (again).
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 26 Oct 2021 17:05:47 +0200
+
+pickleshare (0.7.5-4) unstable; urgency=medium
+
+  * Fix d/watch.
+  * Bump std-vers to 4.6.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 19 Aug 2021 09:36:26 +0200
+
+pickleshare (0.7.5-3) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Julien Puydt ]
+  * Declare d/rules doesn't require root.
+  * Bump std-vers to 4.5.0.
+  * Bump dh compat to 13.
+
+ -- Julien Puydt <jpuydt@debian.org>  Wed, 14 Oct 2020 21:41:18 +0200
+
+pickleshare (0.7.5-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Use debhelper-compat instead of debian/compat.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set upstream metadata fields: Bug-Database, Repository, Repository-
+    Browse.
+  * Set upstream metadata fields: Bug-Submit.
+
+  [ Gordon Ball ]
+  * Drop python2 support (Closes: #937286)
+
+ -- Gordon Ball <gordon@chronitis.net>  Wed, 01 Apr 2020 20:41:57 +0000
+
+pickleshare (0.7.5-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Don't depend on path anymore.
+  * Bump std-ver to 4.2.1.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 29 Sep 2018 09:36:08 +0200
+
+pickleshare (0.7.4-4) unstable; urgency=medium
+
+  * Point d/watch to /releases instead of /tags.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 16 Aug 2018 09:31:18 +0200
+
+pickleshare (0.7.4-3) unstable; urgency=medium
+
+  [ Julien Puydt ]
+  * Declare it is maintained by the team and uploaded by me like my other
+  packages.
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Fix Format URL to correct one
+  * d/control: Remove ancient X-Python-Version field
+  * d/control: Remove ancient X-Python3-Version field
+  * Convert git repository from git-dpm to gbp layout
+
+  [ Julien Puydt ]
+  * Use my debian.org mail address.
+  * Bump d/watch to version 4.
+  * Bump dh compat to 11.
+  * Bump std-ver to 4.2.0.
+  * Run wrap-and-sort.
+
+ -- Julien Puydt <jpuydt@debian.org>  Wed, 08 Aug 2018 11:51:16 +0200
+
+pickleshare (0.7.4-2) unstable; urgency=medium
+
+  * Point watch file directly to upstream.
+  * Bump standards-version to 4.0.0.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Fri, 11 Aug 2017 02:02:43 +0200
+
+pickleshare (0.7.4-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Wed, 17 Aug 2016 00:25:49 +0200
+
+pickleshare (0.7.3-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Tue, 19 Jul 2016 20:19:10 +0200
+
+pickleshare (0.7.2-2) unstable; urgency=medium
+
+  * Added dep on pathlib2. (Closes: #824858)
+  * Added basic sanity check of the package by autopkgtest.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sun, 22 May 2016 17:10:50 +0200
+
+pickleshare (0.7.2-1) unstable; urgency=medium
+
+  [Ondřej Nový]
+  * Fixed VCS URL (https)
+
+  [Julien Puydt]
+  * New upstream version.
+  * Bump standards-version up.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sat, 14 May 2016 07:04:14 +0200
+
+pickleshare (0.5-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #797930)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Fri, 16 Oct 2015 19:53:14 +0200
